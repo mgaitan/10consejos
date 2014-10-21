@@ -81,7 +81,7 @@ Problemas comunes
 Consejo 1: Pare de sufrir
 -------------------------
 
-Use **Python** (y su stack científico)
+Usá **Python** (y su stack científico)
 
 .. image:: img/sufrir.jpg
 
@@ -140,10 +140,10 @@ Especialmente para Ud mismo, luego del fin de semana largo.
 
 ------
 
-Consejo 3: use control de versiones
+Consejo 3: usá control de versiones
 -----------------------------------
 
-Aprenda `GIT <http://nyuccl.org/pages/GitTutorial/>`_
+Aprendé `GIT <http://nyuccl.org/pages/GitTutorial/>`_
 
 - Cambios incrementales
 - Backup
@@ -172,7 +172,7 @@ Ay, los inputs!
 
 --------
 
-Consejo 3: Use estándares (abiertos)
+Consejo 3: Usá estándares (abiertos)
 ------------------------------------
 
 Por ejemplo **json** o YAML
@@ -204,8 +204,8 @@ Consejo 4: Don't Repeat Yourself
 
 -------
 
-Bienvenidos a mi código científico
-----------------------------------
+Bienvenidos al código (de un) científico
+----------------------------------------
 
 .. image:: img/tank.jpg
    :align: center
@@ -213,39 +213,79 @@ Bienvenidos a mi código científico
 
 ------
 
-Consejo 5: Modularizá
----------------------
+Consejo 5: ¡Modularizá!
+-----------------------
 
 .. image:: img/legos.jpg
    :align: center
 
 ------
 
+La mochila de los parámetros
+----------------------------
+
+.. code-block:: fortran
+
+        CALL SUP(x1,y1,x2,y2, sup_out)
+        CALL PERIMETRO(x1,y1,x2,y2, )
+
+----
+
+Consejo 6: programá tan alto como puedas
+----------------------------------------
+
+class Rectanculo(object):
+
+    def __init__(self, punto1, prunto2):
+        self.punto1 = punto1
+        self.punto2 = punto2
+
+    def superficie(self):
+        return abs((self.punto1.x - self.punto2.x) *
+                   (self.punto1.y - self.punto2.y))
+
+    def perimetro(self):
+        ...
+
+----------
+
+¡A tu grandeza, Newton!
+-----------------------
+
+.. code-block::
+
+    subroutine newton(f, fp, x0, x, iters, debug)
+
+        !esta funcion implementa el metodo de Newton para
+        !encontrar el 0 de una función f
+
+Really?
+
+------------
+
+Consejo 7: No reinventes la rueda
+---------------------------------
+
+.. epigraph::
+
+    If I have seen further it is by standing
+    on the shoulders of giants.
+
+    -- Sir Isaac Newton
 
 
+.. tip:: ``scipy.optimize.newton``
 
-Consejo No reinventes la rueda
-------------------------------
+----
 
-Newton
-
-
-
-0.
-1. DRY & KISS
-2. Versionado
+Consejo 8: documentar
+---------------------
 
 
-http://nyuccl.org/pages/GitTutorial/
+Consejo 9: tests!
+-----------------
 
 
-3. Lenguaje que facilite la programación exploratoria
-4. API, programable/interactiva
-5. I/O con formato estándar.
-6. No hardcoded
-7. Modularidad
-8. Parámetros vs atributos (OOP)
-9. Documentar
-10. Usá Python
-
+Consejo 10: veni mañana
+-----------------------
 
