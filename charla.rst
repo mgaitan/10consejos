@@ -123,7 +123,6 @@ Pare de sufrir
 
 ------
 
-
 #EsPregunta
 -----------
 
@@ -227,13 +226,13 @@ Ay, ¡los inputs!
 
 --------
 
-Consejo 3:
+Consejo 4:
 -----------
 
 La interactividad es poder!
 ---------------------------
 
-| "API programable"
+| "API programable FTW!"
 
 
 Si **no queda otra** (configuración):
@@ -261,7 +260,7 @@ Efecto ``model2param.for``
 
 -----
 
-Consejo 4:
+Consejo 5:
 ----------
 
 Don't Repeat Yourself
@@ -283,7 +282,7 @@ Bienvenidos al código (de un) científico
 
 ------
 
-Consejo 5:
+Consejo 6:
 -----------
 
 ¡Modularizá!
@@ -304,7 +303,7 @@ La mochila de los parámetros
 
 ----
 
-Consejo 6:
+Consejo 7:
 ----------
 
 Programá tan alto como puedas
@@ -343,7 +342,7 @@ Really?
 
 ------------
 
-Consejo 7:
+Consejo 8:
 ----------
 
 No reinventes la rueda
@@ -373,7 +372,7 @@ Hacer software no es sólo escribir código
 
 ------
 
-Consejo 8:
+Consejo 9:
 ----------
 
 documentar!
@@ -394,8 +393,8 @@ Probar programas es agotador
 
 ----
 
-Consejo 9:
-----------
+Consejo 10:
+-----------
 
 que la computadora trabaje por vos
 -----------------------------------
@@ -423,7 +422,7 @@ Los tests te dan seguridad
 
 -----
 
-Por último...
+Una más ?
 -------------
 
 ------
@@ -441,8 +440,8 @@ aprender más
 
 ------
 
-Consejo 10:
-------------
+Consejo de yapa:
+----------------
 
 vení mañana
 ------------
