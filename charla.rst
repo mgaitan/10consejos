@@ -10,6 +10,10 @@
       10 consejos para un mejor software (de) científico(s)
 *****************************************************************
 
+
+.. image:: img/scipycon.png
+
+
 .. raw:: html
 
     <center>por Martín Gaitán</center>
@@ -26,8 +30,8 @@ Quién soy
 - Hincha de Boca y del dulce de leche
 - Ingeniero en Computación (UNC)
 - Pythonista desde 2007
-- Emprendedor en @Phasety...
-- ...Donde trabajo con científicos (químicos) que programan
+- Emprendedor en @Phasety
+- Trabajo con químicos que programan
 
 .. image:: img/But-why-meme.png
    :align: center
@@ -44,7 +48,9 @@ Sobre esta charla
 
     -- yo
 
-- A.K.A: catarsis | solidaridad | pedido de auxilio
+.. tip:: Also Known As:
+
+    catarsis | solidaridad | pedido de auxilio
 
 ----------
 
@@ -53,6 +59,7 @@ En general ¿qué hace el software (de) científico(s)?
 ----------------------------------------------------
 
 - Herramienta de **exploración** de problemas
+- Nicho **muy** específico
 - Modelado numérico / simulación
 - Manipulación de datos
 - Gráficos
@@ -66,8 +73,14 @@ Problemas comunes
 - Documentación escasa
 - Múltiples herramientas para lograr un resultado
 - Limitaciones de scope del lenguaje ("no escala")
-- Pirateo?
-- Inercia académica
+- ¿Pirata yo?
+
+----
+
+Y sobre todo...
+---------------
+
+**Inercia académica**
 
 .. epigraph::
 
@@ -78,10 +91,13 @@ Problemas comunes
 
 ------
 
-Consejo 1: Pare de sufrir
--------------------------
+Consejo 1:
+----------
 
-Usá **Python** (y su stack científico)
+Pare de sufrir
+---------------
+
+| Use **Python** (y su *stack* científico)
 
 .. image:: img/sufrir.jpg
 
@@ -90,12 +106,33 @@ Usá **Python** (y su stack científico)
 
 -----
 
+.. image:: img/python-powered.png
+   :width: 15%
+
+
+| (muy) Fácil de aprender
+| con sintáxis legible y expresiva
+| Dinámico, multiparadigma, tipado fuerte
+| Interpretado, **Interactivo**, Extensible
+| Multiplataforma, Libre y Gratis
+| Gran documentación y bibliotecas
+| y una maravillosa **comunidad de usuarios**
+
+| **Ideal para ciencias e ingenierías**
+
+
+------
+
+
+#EsPregunta
+-----------
+
 ¿Les cobran por vocal?
 ----------------------
 
 .. code-block:: fortran
 
-   DIMENSION FUGx(2),FUGy(2),FUGTx(2),FUGTy(2),FUGVx(2),FUGVy(2)
+   DIMENSION FGx(2),FGy(2),FGTx(2),FGTy(2),FGVx(2),FGVy(2)
    DIMENSION DFGNx(2,2),DFGNy(2,2)
    DIMENSION DPDNx(2),DPDNy(2),XOLD(5),OLD(5)
 
@@ -104,10 +141,13 @@ Usá **Python** (y su stack científico)
 
 ------
 
-Consejo 2: programe para humanos
---------------------------------
+Consejo 2:
+----------
 
-Especialmente para Ud mismo, luego del fin de semana largo.
+Programe para humanos
+---------------------
+
+| Especialmente para Ud mismo, luego del fin de semana largo.
 
 .. epigraph::
 
@@ -116,6 +156,9 @@ Especialmente para Ud mismo, luego del fin de semana largo.
     -- Abelson & Sussman, Structure and Interpretation of Computer Programs
 
 -----
+
+Ésta la conozco
+---------------
 
 .. code:: html
 
@@ -134,27 +177,39 @@ Especialmente para Ud mismo, luego del fin de semana largo.
     To: Juan <subdito@todavianosegit.edu>
     Subject: Re: Trabajo
 
-    Estimado Juan me olvidé de avisarle que yo modifiqué esa parte
+    Estimado Juan me olvidé de avisarle que María modificó esa parte
     y cambiaron los parámetros de la función.
-    Por favor, revise el último código.
+    Por favor, revise el último código que le adjunto.
 
 ------
 
-Consejo 3: usá control de versiones
------------------------------------
+Ésta también
+------------
 
-Aprendé `GIT <http://nyuccl.org/pages/GitTutorial/>`_
+.. image:: img/copies.png
+   :align: center
+
+
+-------
+
+Consejo 3:
+-----------
+
+Usá control de versiones
+------------------------
+
+| Aprendé `GIT <http://nyuccl.org/pages/GitTutorial/>`_
 
 - Cambios incrementales
-- Backup
 - Trabajo **colaborativo**: qué, quién, cuándo (para qué)
 - Branchs: libertad para experimentar
+- Backups
 - Dropbox **no es una solución**
 
 -----
 
-Ay, los inputs!
----------------
+Ay, ¡los inputs!
+-----------------
 
 .. code-block::
 
@@ -172,10 +227,19 @@ Ay, los inputs!
 
 --------
 
-Consejo 3: Usá estándares (abiertos)
-------------------------------------
+Consejo 3:
+-----------
 
-Por ejemplo **json** o YAML
+La interactividad es poder!
+---------------------------
+
+| "API programable"
+
+
+Si **no queda otra** (configuración):
+
+- Usá estándares: por ejemplo **json** o YAML.
+- Dale semántica a los datos
 
 .. epigraph::
 
@@ -184,19 +248,24 @@ Por ejemplo **json** o YAML
 
     -- The Zen of Python
 
+
 --------
 
 Efecto ``model2param.for``
 ---------------------------
 
+| El código se copia fácil. Los bugs también.
+
 .. image:: img/copy_paste.jpg
    :align: center
 
+-----
 
----
+Consejo 4:
+----------
 
-Consejo 4: Don't Repeat Yourself
---------------------------------
+Don't Repeat Yourself
+---------------------
 
 .. image:: img/dry.jpg
    :align:  center
@@ -209,12 +278,16 @@ Bienvenidos al código (de un) científico
 
 .. image:: img/tank.jpg
    :align: center
+   :width: 80%
 
 
 ------
 
-Consejo 5: ¡Modularizá!
------------------------
+Consejo 5:
+-----------
+
+¡Modularizá!
+------------
 
 .. image:: img/legos.jpg
    :align: center
@@ -227,25 +300,32 @@ La mochila de los parámetros
 .. code-block:: fortran
 
         CALL SUP(x1,y1,x2,y2, sup_out)
-        CALL PERIMETRO(x1,y1,x2,y2, )
+        CALL PER(x1,y1,x2,y2, per_out)
 
 ----
 
-Consejo 6: programá tan alto como puedas
-----------------------------------------
+Consejo 6:
+----------
 
-class Rectanculo(object):
+Programá tan alto como puedas
+------------------------------
 
-    def __init__(self, punto1, prunto2):
-        self.punto1 = punto1
-        self.punto2 = punto2
+| buscá efectividad
 
-    def superficie(self):
-        return abs((self.punto1.x - self.punto2.x) *
-                   (self.punto1.y - self.punto2.y))
+.. code-block:: python
 
-    def perimetro(self):
-        ...
+    class Rectangulo(object):
+
+        def __init__(self, punto1, prunto2):
+            self.punto1 = punto1
+            self.punto2 = punto2
+
+        def superficie(self):
+            return abs((self.punto1.x - self.punto2.x) *
+                       (self.punto1.y - self.punto2.y))
+
+        def perimetro(self):
+            ...
 
 ----------
 
@@ -254,7 +334,7 @@ class Rectanculo(object):
 
 .. code-block::
 
-    subroutine newton(f, fp, x0, x, iters, debug)
+    subroutine mi_newton(f, fp, x0, x, iters, debug)
 
         !esta funcion implementa el metodo de Newton para
         !encontrar el 0 de una función f
@@ -263,8 +343,11 @@ Really?
 
 ------------
 
-Consejo 7: No reinventes la rueda
----------------------------------
+Consejo 7:
+----------
+
+No reinventes la rueda
+-----------------------
 
 .. epigraph::
 
@@ -274,18 +357,111 @@ Consejo 7: No reinventes la rueda
     -- Sir Isaac Newton
 
 
-.. tip:: ``scipy.optimize.newton``
+.. tip:: Tip: ``scipy.optimize.newton``
 
 ----
 
-Consejo 8: documentar
----------------------
+Hacer software no es sólo escribir código
+-----------------------------------------
+
+| Comentarios, documentos, diagramas.
+| son bienvenidos
+
+**Atenti:**
+
+| no se trata de describir el código que podemos leer.
+
+------
+
+Consejo 8:
+----------
+
+documentar!
+------------
+
+.. image:: img/document.jpg
+   :align: center
+
+.. note:: ipython notebook es genial.
+
+----
+
+Probar programas es agotador
+-----------------------------
+
+.. image:: img/trabajo.jpg
+   :align: center
+
+----
+
+Consejo 9:
+----------
+
+que la computadora trabaje por vos
+-----------------------------------
+
+| **¡Unittests!**
+
+| (programitas que prueban (partes) de programas)
+
+.. code-block::
+
+    def test_suma():
+        assert suma(2, 2) == 4
+
+-----
+
+Los tests te dan seguridad
+--------------------------
+
+| Mejorar sabiendo que funciona
 
 
-Consejo 9: tests!
------------------
+.. image:: img/escalada.gif
+   :align: center
 
 
-Consejo 10: veni mañana
------------------------
+-----
 
+Por último...
+-------------
+
+------
+
+Intentá siempre,
+------------------
+
+siempre,
+--------
+
+aprender más
+------------
+
+| Por lo tanto
+
+------
+
+Consejo 10:
+------------
+
+vení mañana
+------------
+
+
+| Jueves y viernes 10hs
+
+| **Tutorial de introducción a Python Científico**
+
+
+.. image:: img/scipycon.png
+
+
+-----
+
+
+Muchas gracias
+--------------
+
+
+.. image:: img/twitter.png
+   :align: center
